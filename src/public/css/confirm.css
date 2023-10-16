@@ -1,0 +1,72 @@
+.confirm__content {
+  margin: 0 auto;
+  max-width: 1230px;
+  padding: 20px 50px;
+}
+
+.confirm__heading{
+  text-align: center;
+}
+
+.form{
+  margin: 0 auto;
+  width: 60%;
+}
+
+.confirm-table__inner {
+  width: 100%;
+}
+
+.confirm-table__header {
+  width: 30%;
+  font-weight: bold;
+  text-align: left;
+  height: 80px;
+}
+
+.confirm-table__text input{
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.name-wrap input{
+  width: 8%;
+}
+
+.form__button-wrap{
+    margin: 0 auto;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.form__button-submit {
+  padding:10px 0;
+  width: 10%;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  background: #000;
+  color: #fff;
+  margin: 20px auto 10px;
+}
+
+.form__button-redirect{
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  width: 100px;
+  padding: 5px 0;
+  letter-spacing:0.05em ;
+  margin: 0 auto;
+
+}
+
+textarea{
+  padding-top: 35px;
+  height: 120px;
+  border: none;
+  resize: none;
+  width: 80%;
+}
+

@@ -1,0 +1,114 @@
+.contact-form__content {
+  margin: 0 auto;
+  max-width: 1230px;
+  padding: 30px 50px;
+}
+
+.content-form__heading {
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+
+.form__group {
+  display: flex;
+}
+
+.form__group-title {
+  width: 30%;
+  text-align: left;
+}
+
+.form__label--item {
+  font-weight: bold;
+}
+
+.form__label--item span {
+  color: red;
+  margin: 0 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.form__group-content {
+  width: 80%;
+  text-align: left;
+}
+
+.form__group-content-name {
+  width: 80%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__input-text input,
+.form__input-text textarea {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.form__input-text-name input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.form__input-text-postcode input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  position: left;
+}
+
+.form__input-text-postcode label {
+  font-weight: bold;
+}
+
+.form__input-radio {
+  float: left;
+}
+
+.form__input-radio div {
+  display: inline-block;
+}
+
+span {
+  color: #ddd;
+}
+
+.form__input-text textarea {
+  height: 180px;
+  resize: none;
+}
+
+.form__button {
+  margin-top: 30px;
+}
+
+.form__button-submit {
+  padding: 10px;
+  width: 20%;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  background: #000;
+  color: #fff;
+}
+
+.error{
+  color: red;
+}
