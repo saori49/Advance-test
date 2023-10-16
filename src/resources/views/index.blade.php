@@ -1,9 +1,3 @@
-<?php
-$content = array();
-$gender[1] = '男性';
-$gender[2] = '女性';
-
-?>
 
 <!DOCTYPE html>
 <html lang="ja">
